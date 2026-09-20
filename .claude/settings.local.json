@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx next build:*)",
+      "Bash(npm run build:*)",
+      "Bash(xargs grep:*)",
+      "Read(//c/Users/WALEED/AppData/Local/Temp/claude/c--nodejs-Mandobak-web/72d5766d-3dff-48cd-9bbe-05eac1c3b8e0/tasks/**)",
+      "PowerShell(Get-ChildItem -Path \"d:\\\\NodeJS\\\\Mandobak-web\" -Recurse -File | Where-Object { $_.FullName -notmatch \"node_modules\" } | Select-Object FullName | Head -50)"
+    ]
+  }
+}
